@@ -32,11 +32,10 @@
 \cvname{Matthijs Tadema} % Your name
 \cvjobtitle{Computational Biologist} % Job title/career
 
-\cvdate{6 December 1993} % Date of birth
-\cvaddress{Groningen, The Netherlands} % Short address/location, use \newline if more than 1 line is required
+\cvdate{} % Date of birth
+\cvaddress{} % Short address/location, use \newline if more than 1 line is required
 \cvnumberphone{+31 6 23 51 29 54} % Phone number
-%\cvsite{http://en.wikipedia.org} % Personal website
-\cvsite{}
+\cvsite{linkedin.com/in/mjtadema}
 \cvmail{m.j.tadema@pm.me} % Email address
 
 %----------------------------------------------------------------------------------------
@@ -47,7 +46,18 @@
 %	 ABOUT ME
 %----------------------------------------------------------------------------------------
 
-\aboutme{Something about me i guess} % To have no About Me section, just remove all the text and leave \aboutme{}
+%%bullets:
+
+%Like working with others/social environment
+%Enjoy building things 
+%In my free time I tinker with linux (servers)
+%Autodidact/enjoy learning
+%multidisciplinary
+
+\aboutme{
+
+In my free time I like to go cycling and tinker with my Linux server where I self-host a number of web-services for personal use.
+} % To have no About Me section, just remove all the text and leave \aboutme{}
 
 %----------------------------------------------------------------------------------------
 %	 SKILLS
@@ -55,12 +65,12 @@
 
 % Skill bar section, each skill must have a value between 0 an 6 (float)
 %\skills{{pursuer of rabbits/5.8},{good manners/4},{outgoing/4.3},{polite/4},{Java/0.01}}
-\skills{{Python/6},{Bash/5.5},{R/2},{C/1},{GROMACS/5.5},{Linux/6},{C++/1.5},{LaTeX/5}}
+\skills{{Python/6},{Bash/5.5},{GROMACS/5.5},{Linux/6},{\LaTeX/5}}
 
 %------------------------------------------------
 
 % Skill text section, each skill must have a value between 0 an 6
-%\skillstext{{lovely/4},{narcissistic/3}}
+\skillstext{{R/2},{C\textbackslash{}C++/1},{Docker/3},{PLUMED/3}}
 
 % Languages
 
@@ -74,9 +84,47 @@
 %	 INTERESTS
 %----------------------------------------------------------------------------------------
 
-\section{Interests}
+%\section{Interests}
 
-Molecular simulation, bioinformatics, data science, open source software
+%Molecular simulation, bioinformatics, data science, open source software
+
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{since 2020}
+		{Ph.D. {\normalfont in ChemBio and Molecular Dynamics}}
+		{Ph.D. Researcher}
+		{
+		\begin{itemize}
+			\item Developed simulation methodology for high-throughput screening of 
+		\end{itemize}
+		}
+		%{I did my Ph.D. in the Chemical Biology group, bringing together experimental and computational skills I gained during my M.Sc. research in Molecular Dynamics. My research required independently learning many new skills and getting familiar with advanced HPC environments. In this multidisciplinary environment I often collaborated with my colleagues to do computational work for them. Additionally I was responsible for the public-facing website of our research group, as well as taking care of computers at the lab and their data.}
+		% 
+		% Molecular simulations
+		% multidisciplinary
+		% programming, HPC
+		% Molecular biology lab
+		% Taking care of IT tasks, backups, website etc
+	\twentyitem{2021-2023}
+		{Protein catalyst design}
+		{Teaching}
+		{I taught tutorials on computational enzyme design, one of my specialties, to chemistry bachelor students. Part of the work was creating slides on the topic and (exam) questions for the students to answer using recent scientific literature as a reference.}
+	\twentyitem{2020-2022}
+		{Programming for Life Sciences (Bachelor course)}
+		{Teaching}
+		{I taught an introductory Python course for Life Science bachelor students three times. During the course the students learn the basics of Python and programming and how to work with and visualize data using Numpy and Matplotlib. By helping the students in this course I've had to master reading and understanding other people's code in a short amount of time.}
+	\twentyitem{2019}
+		{Bioinformatics (Bachelor course)}
+		{Teaching Assistant}
+		{At the end of my Master's programme I was a teaching assistant for the Bioinformatics Bachelor course. During the course I supervised tutorials and helped students with their questions.}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
 
 %----------------------------------------------------------------------------------------
 %	 EDUCATION
@@ -86,7 +134,7 @@ Molecular simulation, bioinformatics, data science, open source software
 
 \begin{twenty} % Environment for a list with descriptions
 	\twentyitem{since 2020}
-		{Ph.D. {\normalfont in Computational Biology}}
+		{Ph.D. {\normalfont in Chembio and Molecular Dynamics}}
 		{University of Groningen}
 		{\emph{Computationally aided protein nanopore design and engineering.}}
 	\twentyitem{2017-2020}
@@ -100,39 +148,88 @@ Molecular simulation, bioinformatics, data science, open source software
 	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
 \end{twenty}
 
+
+%----------------------------------------------------------------------------------------
+%	 ADDITIONAL TRAINING
+%----------------------------------------------------------------------------------------
+
+
+\subsection{Additional training}
+
+\begin{twenty}
+	\twentyitem{2023}
+		{Course on academic writing}
+		{University of Groningen}
+		{During this course I was taught tips and tricks on academic writing style and how to navigate the world of academic publishing.}
+	\twentyitem{2022}
+		{Advanced \LaTeX course}
+		{University of Groningen}
+		{This course focused on advanced use of \LaTeX on overleaf. Some tips on using citing in \LaTeX were also discussed.}
+	\twentyitem{2022}
+		{SimTech summer school on knowledge-driven machine learning and its applications}
+		{University of Stuttgart}
+		{This week-long summer school was organized by the Stuttgart Center for Simulation Science. It was insightful to study the possibilities (and limitations) of machine learning and deep learning in various fields of simulation science.}
+	\twentyitem{2021}
+		{MolSim winter school on molecular simulations}
+		{University of Amsterdam}
+		{With a focus on the fundamentals of atomistic molecular simulations and statistical thermodynamics, this winter  school was an ideal complement to my background in coarse-grained molecular dynamics. Furthermore, some of the lectures on enhanced sampling techniques proved vital to completing my Ph.D. research.}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 EXTRACURRICULAR ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+\newpage % Start a new page
+
+\makeprofile % Print the sidebar
+
+\subsection{Extracurricular activities}
+
+\begin{twenty}
+	\twentyitem{2023}
+		{Party committee}
+		{Planning events for colleagues}
+		{In the final year of my Ph.D. I was asked to join the party committee we had in our research group and helped to organize various events such as christmas celebrations, group dinners, outings, etc.}
+	\twentyitem{2018}
+		{IGEM}
+		{Student competition}
+		{The International Genetically Engineered Machine competition (IGEM) is an international student competition for synthetic biology organized in Boston, USA. Our project "StyGreen" was nominated for best in track. In addition to being part of the molecular biology lab team and providing molecular simulations, I was also in responsible for the team's finances.}
+\end{twenty}
+		
+		
 %----------------------------------------------------------------------------------------
 %	 PUBLICATIONS
 %----------------------------------------------------------------------------------------
 
-\section{Publications}
-
-%\begin{twentyshort} % Environment for a short list with no descriptions
-%	\twentyitemshort{JACS, 2023}{Seeing the Invisibles: Detection of Peptide Enantiomers, Diastereomers, and Isobaric Ring Formation in Lanthipeptides Using Nanopores}
-%	%\twentyitemshort{<dates>}{<title/description>}
-%\end{twentyshort}
-
-\begin{twenty}
-	\twentyitem{2023}
-		{Translocation of linearized full-length proteins through an engineered nanopore under opposing electrophoretic force}
-		{Nature Biotechnology}
-		{Sauciuc, A., Morozzo della Rocca, B., Tadema, M. J., Chinappi, M., \& Maglia, G.} 
-	\twentyitem{2023}
-		{Seeing the Invisibles: Detection of Peptide Enantiomers, Diastereomers, and Isobaric Ring Formation in Lanthipeptides Using Nanopores}
-		{JACS}
-		{Abraham Versloot, R. C., Arias-Orozco, P., Tadema, M. J., Rudolfus Lucas, F. L., Zhao, X., Marrink, S. J., Kuipers, O. P., \& Maglia, G.}
-	\twentyitem{2022}
-		{$\beta$-Barrel Nanopores with an Acidic–Aromatic Sensing Region Identify Proteinogenic Peptides at Low pH}
-		{ACS Nano}
-		{Versloot, R. C. A., Straathof, S. A. P., Stouwie, G., Tadema, M. J., \& Maglia, G.}
-	\twentyitem{2022}
-		{Quantification of Protein Glycosylation Using Nanopores}
-		{Nano Letters}
-		{Versloot, R. C. A., Lucas, F. L. R., Yakovlieva, L., Tadema, M. J., Zhang, Y., Wood, T. M., Martin, N. I., Marrink, S. J., Walvoort, M. T. C., \& Maglia, G.}
+%\section{Publications}
+%
+%%\begin{twentyshort} % Environment for a short list with no descriptions
+%%	\twentyitemshort{JACS, 2023}{Seeing the Invisibles: Detection of Peptide Enantiomers, Diastereomers, and Isobaric Ring Formation in Lanthipeptides Using Nanopores}
+%%	%\twentyitemshort{<dates>}{<title/description>}
+%%\end{twentyshort}
+%
+%\begin{twenty}
+%	\twentyitem{2023}
+%		{Translocation of linearized full-length proteins through an engineered nanopore under opposing electrophoretic force}
+%		{Nature Biotechnology}
+%		{Sauciuc, A., Morozzo della Rocca, B., Tadema, M. J., Chinappi, M., \& Maglia, G.} 
+%	\twentyitem{2023}
+%		{Seeing the Invisibles: Detection of Peptide Enantiomers, Diastereomers, and Isobaric Ring Formation in Lanthipeptides Using Nanopores}
+%		{JACS}
+%		{Abraham Versloot, R. C., Arias-Orozco, P., Tadema, M. J., Rudolfus Lucas, F. L., Zhao, X., Marrink, S. J., Kuipers, O. P., \& Maglia, G.}
 %	\twentyitem{2022}
-%		{Unbiased Data Analysis for the Parameterization of Fast Translocation Events through Nanopores}
-%		{ACS Omega}
-%		{Lucas, F. L. R., Willems, K., Tadema, M. J., Tych, K. M., Maglia, G., \& Wloka, C.}
-\end{twenty}
+%		{$\beta$-Barrel Nanopores with an Acidic–Aromatic Sensing Region Identify Proteinogenic Peptides at Low pH}
+%		{ACS Nano}
+%		{Versloot, R. C. A., Straathof, S. A. P., Stouwie, G., Tadema, M. J., \& Maglia, G.}
+%	\twentyitem{2022}
+%		{Quantification of Protein Glycosylation Using Nanopores}
+%		{Nano Letters}
+%		{Versloot, R. C. A., Lucas, F. L. R., Yakovlieva, L., Tadema, M. J., Zhang, Y., Wood, T. M., Martin, N. I., Marrink, S. J., Walvoort, M. T. C., \& Maglia, G.}
+%%	\twentyitem{2022}
+%%		{Unbiased Data Analysis for the Parameterization of Fast Translocation Events through Nanopores}
+%%		{ACS Omega}
+%%		{Lucas, F. L. R., Willems, K., Tadema, M. J., Tych, K. M., Maglia, G., \& Wloka, C.}
+%\end{twenty}
 
 
 %----------------------------------------------------------------------------------------
@@ -147,27 +244,6 @@ Molecular simulation, bioinformatics, data science, open source software
 %	%\twentyitemshort{<dates>}{<title/description>}
 %\end{twentyshort}
 
-%----------------------------------------------------------------------------------------
-%	 EXPERIENCE
-%----------------------------------------------------------------------------------------
-
-\section{Experience}
-
-\begin{twenty} % Environment for a list with descriptions
-	\twentyitem{2020-2022}
-		{Programming for Life Sciences (Bachelor course)}
-		{Teacher}
-		{I taught an introductory Python course for Life Science bachelor students three times. During the course the students learn the basics of Python and programming but also how to work with and visualize data using Numpy and Matplotlib.}
-	\twentyitem{2019}
-		{Bioinformatics (Bachelor course)}
-		{Teaching Assistant}
-		{At the end of my Master's programme I was a teaching assistant for the Bioinformatics Bachelor course.}
-	\twentyitem{2018}
-		{IGEM}
-		{Student competition}
-		{The International Genetically Engineered Machine competition (IGEM) is an international student competition for synthetic biology. Our project "StyGreen" was nominated for best in track.}
-	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
-\end{twenty}
 
 %----------------------------------------------------------------------------------------
 %	 OTHER INFORMATION

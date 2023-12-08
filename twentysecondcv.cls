@@ -18,6 +18,7 @@
 \RequirePackage{pgffor}
 \RequirePackage{marvosym}
 \RequirePackage{parskip}
+\usepackage{ifthen}
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
 \ProcessOptions\relax
@@ -77,7 +78,7 @@
 \newcommand{\cvjobtitle}[1]{\renewcommand{\cvjobtitle}{#1}}
 
 % Command for printing the contact information icons
-\newcommand*\icon[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,inner sep=1pt, fill=mainblue,mainblue,text=white] (char) {#1};}}
+\newcommand*\icon[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,inner sep=0pt, minimum size=16pt, fill=mainblue,mainblue,text=white] (char) {#1};}}
 
 % Command for printing skill progress bars
 \newcommand\skills[1]{ 
@@ -108,7 +109,7 @@
 	\renewcommand{\languages}{
 		\begin{flushleft}
 			\foreach [count=\i] \x/\y in {#1}{ 
-				\x$ :\> $\y \\
+				\x : \> \y \\
 			}
 		\end{flushleft}
 	}
@@ -160,7 +161,7 @@
 		%------------------------------------------------
 		
 		\ifthenelse{\equal{\aboutme}{}}{}{
-			\profilesection{About me}
+			\profilesection{Profile}
 			\begin{flushleft}
 				\aboutme
 			\end{flushleft}
